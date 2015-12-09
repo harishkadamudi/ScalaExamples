@@ -13,6 +13,7 @@ public class BootStrap {
 		System.out.println(" after modification " + inScala.myFiled());
 		System.out.println(" Array of {0}" +inScala.printArray());
 		String[] array = inScala.getArray();
+		System.out.println(" Array Size --" + array.length);
 	}
 
 }
