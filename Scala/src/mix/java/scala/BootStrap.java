@@ -13,6 +13,9 @@ public class BootStrap {
 		System.out.println(" after modification " + inScala.myFiled());
 		System.out.println(" Array of {0}" +inScala.printArray());
 		String[] array = inScala.getArray();
+		for(String name: array){
+			System.out.println(" Array " + name);
+		}
 	}
 
 }
